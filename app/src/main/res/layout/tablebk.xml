@@ -1,0 +1,134 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    tools:context="com.example.www.mughalai_kitchan_app.tablebk">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/request"
+            android:src="@drawable/tbbooking" />
+
+        <EditText
+            android:id="@+id/txtdate"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/subtable"
+            android:layout_below="@+id/imageView2"
+            android:layout_marginTop="41dp"
+            android:hint="Date"
+            android:padding="5dp"
+            android:textColorHint="@color/Black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/datepicker"
+            android:layout_width="wrap_content"
+
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/txtdate"
+            android:layout_alignEnd="@+id/request"
+            android:text="Select" />
+
+        <EditText
+
+            android:id="@+id/txtstart"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+            android:layout_above="@+id/btnstart"
+            android:layout_alignStart="@+id/txtdate"
+            android:hint="start time"
+            android:textColorHint="@color/Black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnstart"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/endbtn"
+            android:layout_below="@+id/endbtn"
+            android:text="selcet" />
+
+        <EditText
+            android:id="@+id/txtend"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/txtstart"
+            android:layout_below="@+id/txtstart"
+            android:hint="End time"
+            android:textColorHint="@color/Black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/endbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignStart="@+id/datepicker"
+            android:layout_below="@+id/datepicker"
+            android:text="select" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/txtend"
+            android:layout_below="@+id/btnstart"
+            android:layout_marginTop="14dp"
+            android:text="Table No"
+            android:textColor="@color/Black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <Spinner
+            android:id="@+id/sptable"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignEnd="@+id/btnstart"
+            android:layout_below="@+id/btnstart"></Spinner>pi
+
+        <EditText
+            android:id="@+id/request"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_below="@+id/textView2"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="18dp"
+            android:hint="Event/Addition requests/comments"
+            android:inputType="textMultiLine"
+            android:textColorHint="@color/Blue" />
+
+        <Button
+            android:id="@+id/subtable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/request"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorAccent"
+            android:text="Table book"
+            android:textColor="@color/White"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

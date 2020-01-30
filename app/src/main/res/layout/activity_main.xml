@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:background="@drawable/download"
+    tools:context="com.example.www.mughalai_kitchan_app.MainActivity">
+
+
+    <Button
+
+        android:id="@+id/signin"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="33dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:background="@color/Chartreuse"
+        android:text="Login"
+           android:onClick="signin"
+        android:textColor="@color/White"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/signin"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="59dp"
+        android:layout_marginRight="59dp"
+        android:text="Sign up"
+     android:onClick="signup"
+        android:background="@color/Chartreuse"
+        android:textStyle="italic"
+        android:textColor="@color/White"
+        android:textSize="20dp"/>
+
+</RelativeLayout>

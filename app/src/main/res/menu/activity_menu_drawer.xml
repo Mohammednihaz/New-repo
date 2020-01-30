@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_restaurant_menu_black_24dp"
+            android:title="Menu Category" />
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="Order History" />
+
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="Favorite" />
+
+        <item
+            android:id="@+id/orderstatus"
+            android:icon="@drawable/ordersstatus"
+            android:title="Order Status" />
+
+        <item
+            android:id="@+id/nav_book"
+            android:icon="@drawable/ic_table_black_24dp"
+            android:title="Table Booking" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_feedback_black_24dp"
+            android:title="FeedBack" />
+        <item
+            android:id="@+id/nav_sinout"
+            android:icon="@drawable/ic_signout_power_black_24dp"
+            android:title="Sign Out" />
+
+    </group>
+</menu>

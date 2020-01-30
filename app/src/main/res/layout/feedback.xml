@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    tools:context="com.example.www.mughalai_kitchan_app.feedback">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/rate"
+            android:layout_alignStart="@+id/txtfeedback"
+            android:layout_marginStart="43dp"
+            android:padding="5dp"
+            android:text="Rating"
+            android:textColor="@color/Black"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/rate"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/btnsend"
+            android:layout_alignEnd="@+id/txtfeedback"
+            android:layout_marginBottom="36dp"
+            android:layout_marginEnd="30dp"></Spinner>
+
+        <EditText
+            android:id="@+id/txtfeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="222dp"
+            android:ems="10"
+            android:hint="Wrte your feedback(withhin 125 charecture)"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/btnsend"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/txtfeedback"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/finalsend" />
+    </RelativeLayout>
+</FrameLayout>

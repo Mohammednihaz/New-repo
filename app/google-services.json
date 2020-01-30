@@ -1,0 +1,378 @@
+{
+  "project_info": {
+    "project_number": "190548954787",
+    "firebase_url": "https://projects-da8eb.firebaseio.com",
+    "project_id": "projects-da8eb",
+    "storage_bucket": "projects-da8eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190548954787:android:b40612df75a43617",
+        "android_client_info": {
+          "package_name": "com.example.www.projectlogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190548954787-3gm14ett3glvsec7v1nhsfmvjo74p7ao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkr--hw_E1Kallxq-lrBBRGaqVL5XRam8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190548954787:android:dd9c427595d13bab",
+        "android_client_info": {
+          "package_name": "com.example.www.adminproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190548954787-3gm14ett3glvsec7v1nhsfmvjo74p7ao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkr--hw_E1Kallxq-lrBBRGaqVL5XRam8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190548954787:android:7c2cdbf60a436f58",
+        "android_client_info": {
+          "package_name": "com.example.www.menu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190548954787-3gm14ett3glvsec7v1nhsfmvjo74p7ao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkr--hw_E1Kallxq-lrBBRGaqVL5XRam8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190548954787:android:c3cdf743504e9506",
+        "android_client_info": {
+          "package_name": "com.mughlaikitchen.group43.mughlaikitchenapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190548954787-iq1oc0811budpuugd9n3j22r5f353ctj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mughlaikitchen.group43.mughlaikitchenapp",
+            "certificate_hash": "ebc52cb6635ea59c404a7f305d4de036ae51aaa5"
+          }
+        },
+        {
+          "client_id": "190548954787-3gm14ett3glvsec7v1nhsfmvjo74p7ao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkr--hw_E1Kallxq-lrBBRGaqVL5XRam8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190548954787-3gm14ett3glvsec7v1nhsfmvjo74p7ao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190548954787:android:20fac338f4305359",
+        "android_client_info": {
+          "package_name": "com.example.www.mughalikitcanapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190548954787-3gm14ett3glvsec7v1nhsfmvjo74p7ao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkr--hw_E1Kallxq-lrBBRGaqVL5XRam8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190548954787:android:d701bedb49f2afc2",
+        "android_client_info": {
+          "package_name": "com.example.www.mughalaikitchanapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190548954787-3gm14ett3glvsec7v1nhsfmvjo74p7ao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkr--hw_E1Kallxq-lrBBRGaqVL5XRam8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190548954787:android:1c3b1e4125468e6b",
+        "android_client_info": {
+          "package_name": "com.example.www.mughalaikitchanproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190548954787-3gm14ett3glvsec7v1nhsfmvjo74p7ao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkr--hw_E1Kallxq-lrBBRGaqVL5XRam8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190548954787:android:c23fee3f8f5dafee",
+        "android_client_info": {
+          "package_name": "com.example.www.finalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190548954787-3gm14ett3glvsec7v1nhsfmvjo74p7ao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkr--hw_E1Kallxq-lrBBRGaqVL5XRam8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190548954787:android:00b1f43c0942d9b9",
+        "android_client_info": {
+          "package_name": "com.mughlaikitchen.group43.mughlaikitchenappperfected"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190548954787-0ff7j6ojuhc052ffe4v0jn0r890m71c6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mughlaikitchen.group43.mughlaikitchenappperfected",
+            "certificate_hash": "ebc52cb6635ea59c404a7f305d4de036ae51aaa5"
+          }
+        },
+        {
+          "client_id": "190548954787-3gm14ett3glvsec7v1nhsfmvjo74p7ao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkr--hw_E1Kallxq-lrBBRGaqVL5XRam8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190548954787-3gm14ett3glvsec7v1nhsfmvjo74p7ao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190548954787:android:5b6e53c5d9d0f5cf",
+        "android_client_info": {
+          "package_name": "com.example.www.project123"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190548954787-3gm14ett3glvsec7v1nhsfmvjo74p7ao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkr--hw_E1Kallxq-lrBBRGaqVL5XRam8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190548954787:android:b9c5d743bb040976",
+        "android_client_info": {
+          "package_name": "com.example.www.mughalai_kitchan_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190548954787-3gm14ett3glvsec7v1nhsfmvjo74p7ao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkr--hw_E1Kallxq-lrBBRGaqVL5XRam8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

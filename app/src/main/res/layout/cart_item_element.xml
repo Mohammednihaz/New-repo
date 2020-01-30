@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+       app:cardElevation="4dp"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+              android:id="@+id/cartremove"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/carttotal">
+
+            <ImageButton
+                android:id="@+id/deleteitemcart"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="11dp"
+                android:layout_marginTop="13dp"
+                android:src="@drawable/ic_delete_black_24dp" />
+        </android.support.v7.widget.CardView>
+
+        <TextView
+
+            android:id="@+id/cartfood"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/carttotal"
+            android:layout_alignBottom="@+id/carttotal"
+            android:layout_alignParentStart="true"
+
+            android:layout_marginStart="16dp"
+
+            android:text="chicken biriyani"
+            android:textColor="@color/Black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/carttotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+
+            android:layout_marginStart="43dp"
+            android:layout_toEndOf="@+id/cartfood"
+            android:padding="5dp"
+            android:text="300"
+            android:textColor="@color/Green"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

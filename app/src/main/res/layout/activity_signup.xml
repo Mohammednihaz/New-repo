@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    tools:context="com.example.www.mughalai_kitchan_app.signup">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:id = "@+id/layoutfirstname"
+            android:layout_marginTop = "8dp"
+            android:layout_marginStart = "8dp"
+            android:layout_marginEnd = "8dp">
+            <android.support.design.widget.TextInputEditText
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:id = "@+id/txtfirstname"
+                android:textColorHint="@color/White"
+                android:hint = "Enter your first name"
+                android:inputType = "text"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:id = "@+id/layoutlast"
+            android:layout_marginTop = "8dp"
+            android:layout_marginStart = "8dp"
+            android:layout_marginEnd = "8dp">
+            <android.support.design.widget.TextInputEditText
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:id = "@+id/txtlastname"
+                android:hint = "Enter your last name"
+                android:textColorHint="@color/White"
+                android:inputType = "text"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:id = "@+id/layoutEmail"
+            android:layout_marginTop = "8dp"
+            android:layout_marginStart = "8dp"
+            android:layout_marginEnd = "8dp">
+            <android.support.design.widget.TextInputEditText
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:id = "@+id/email"
+                android:hint = "Enter Email id"
+                android:inputType = "textEmailAddress"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:id = "@+id/layoutpasword"
+            android:layout_marginTop = "8dp"
+            android:layout_marginStart = "8dp"
+            android:layout_marginEnd = "8dp">
+            <android.support.design.widget.TextInputEditText
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:id = "@+id/password"
+                android:textColorHint="@color/White"
+                app:passwordToggleEnabled="true"
+                android:hint = "Enter Email id"
+                android:inputType = "textPassword"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:id = "@+id/layoutconfirm"
+            android:layout_marginTop = "8dp"
+            android:layout_marginStart = "8dp"
+            android:layout_marginEnd = "8dp">
+            <android.support.design.widget.TextInputEditText
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:id="@+id/confirmpass"
+                android:hint = "Confirm Password"
+                android:textColorHint="@color/White"
+                app:passwordToggleEnabled="true"
+                android:inputType = "textPassword"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:id = "@+id/layoutaddress"
+            android:layout_marginTop = "8dp"
+            android:layout_marginStart = "8dp"
+            android:layout_marginEnd = "8dp">
+            <android.support.design.widget.TextInputEditText
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:id = "@+id/useraddress"
+                android:hint = "Enter your address"
+                android:textColorHint="@color/White"
+                android:inputType = "textImeMultiLine"/>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:id = "@+id/layoutphone"
+            android:layout_marginTop = "8dp"
+            android:layout_marginStart = "8dp"
+            android:layout_marginEnd = "8dp">
+            <android.support.design.widget.TextInputEditText
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:id = "@+id/userphone"
+                android:hint = "Enter your phone no"
+                android:inputType = "phone"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <!-- Link to Login Screen -->
+
+        <Button
+            android:id="@+id/sign_up_button"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorAccent"
+            android:text="register"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/sign_in_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@null"
+            android:text="link_to_login"
+            android:textAllCaps="false"
+            android:textColor="@color/White"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+</RelativeLayout>

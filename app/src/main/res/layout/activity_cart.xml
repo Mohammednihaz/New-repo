@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.www.mughalai_kitchan_app.cart"
+
+    >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/cartlistfood"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/order"
+        android:layout_alignStart="@+id/order"
+        android:layout_marginStart="26dp"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:text="Total:"
+
+        android:textColor="@color/Black"
+        android:textStyle="bold|italic"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:id="@+id/alltotal"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/textView"
+        android:text="" />
+
+    <Button
+
+        android:id="@+id/order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cartlistfood"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:text="Place an Order" />
+
+</RelativeLayout>

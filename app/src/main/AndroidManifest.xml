@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.www.mughalai_kitchan_app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".menu"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".login"
+            android:label="Login" />
+        <activity
+            android:name=".signup"
+            android:label="Sign Up"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".ResetPasswordActivity" />
+        <activity
+            android:name=".foodlist"
+            android:label="Availaible foodlist" />
+        <activity
+            android:name=".cart"
+            android:label="Cart" />
+        <activity
+            android:name=".fooddetail"
+
+            />
+        <activity android:name=".orderstatus"
+            android:label="Order Status"/>
+        <activity android:name=".confirmorder"
+            android:label="Confirm Order"></activity>
+    </application>
+
+</manifest>
